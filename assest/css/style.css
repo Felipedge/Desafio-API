@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-.body{
-    background-color: grey;
-}
+
 .titulo{
     font-family: 'Comfortaa', cursive;
 }
@@ -14,6 +12,7 @@
 }
 .card{
     font-family: 'Comfortaa', cursive;
+    
 }
 .input{
     width: 300px;
