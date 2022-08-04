@@ -12,20 +12,20 @@
 
 <body>
     <div class="titulo">
-        <br>
+        <hr>
         <h1>Conversor de monedas Nacional</h1>
-        <br>
+        <hr>
     </div>
     <div class="card">
         <div>
             <h1 class="titulo-2">Pesos CLP</h1>
-            <input class="monto" type="text" placeholder="Ingresar monto en CLP">
+            <input id="montoIngresado" class="monto" type="text" placeholder="Ingresar monto en CLP">
         </div>
     
         <div>
-            <h4 class="titulo-3">Moneda a convertir</h4>
+            <h1 class="titulo-3">Moneda a convertir</h1>
             <div>
-                <select class="selector" name="Seleccione_moneda">
+                <select class="selector" name="Seleccione_moneda" id="selector">
                     <option value="UF">UF</option>
                     <option value="IVP">IVP</option>
                     <option value="Dolar">Dolar</option>
@@ -41,8 +41,11 @@
                 </select>
             </div>
 
-            <div class="btn">
+            <div class="btn" id="btnResultado">
                 <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+            <div>
+                <h5>Resulado <span id="total"></span></h5>
             </div>
     </div>
 
